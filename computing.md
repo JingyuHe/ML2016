@@ -43,3 +43,48 @@ For example, [How to make a histogram in R](http://lmgtfy.com/?q=How+to+make+a+h
 
 Me, TA, and your classmates. Ask questions on the discussion board [Piazza](https://piazza.com/chicagobooth/spring2016/bus41000/home),
 work together with your classmates, and answer other's questions.
+
+
+### Python libraries
+1. Install python on your computer from [here](https://www.python.org/downloads/)
+    - [Install Python for Windows](https://www.youtube.com/watch?v=s6tTJ512eHM)
+    - [Install Python for Mac](https://www.youtube.com/watch?v=QhutbLBKBok)
+
+2. Install Anaconda from [here](https://www.continuum.io/downloads)
+
+3. Install several necessary libraries for this course
+
+    - pip, a Python packages manager [here](https://pip.pypa.io/en/stable/installing/)
+    
+    - matplotlib, library for drawing plots [here](http://matplotlib.org/users/installing.html)
+    
+    - sklearn, machine learning toolkit [here]( http://scikit-learn.org/stable/install.html)
+    
+    - scipy, scientific computing package [here]( http://scipy.org/install.html)
+    
+    - Jupyter, an interactive notebook for Python (like Rstudio to R) [here](http://jupyter.readthedocs.io/en/latest/install.html)
+    
+    - Ipython, an interactive terminal for Python [here](https://ipython.org/install.html)
+    
+    - If you are using Mac or Linux, simply run the code below in a terminal (install pip first!).
+      ```python
+      pip install matplotlib
+      pip install sklearn
+      pip install scipy
+      pip install jupyter
+      pip install ipython
+      ```
+
+To start a python job, type the code below in a terminal
+```python
+jupyter notebook
+```
+
+### Resources for Python
+
+Here is a great tutorial of Jupyter https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook
+ 
+Tutorial for numpy : http://cs231n.github.io/python-numpy-tutorial/
+
+Tutorial for sklearn : http://scikit-learn.org/stable/tutorial/
+    
